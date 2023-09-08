@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin: 100px auto;
+    max-width: 500px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #333333;
+    margin-bottom: 40px;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+label {
+    font-size: 18px;
+    color: #333333;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+button[type="submit"] {
+    background-color: #4CAF50; /* cor de fundo */
+    border: none; /* sem borda */
+    color: white; /* cor do texto */
+    padding: 12px 24px; /* preenchimento interno */
+    text-align: center; /* alinhamento do texto */
+    text-decoration: none; /* sem decoração de texto */
+    display: inline-block; /* exibição em bloco */
+    font-size: 16px; /* tamanho da fonte */
+    margin: 10px 0; /* margem superior e inferior */
+    cursor: pointer; /* cursor de ponteiro */
+    border-radius: 5px; /* borda arredondada */
+    box-shadow: 0 3px #999; /* sombra */
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #3e8e41; /* cor de fundo quando hover */
+    box-shadow: 0 5px #666; /* sombra quando hover */
+  }
+  button[type="button"] {
+    background-color: #34a6d7; /* cor de fundo */
+    border: none; /* sem borda */
+    color: white; /* cor do texto */
+    padding: 6px 12px; /* preenchimento interno */
+    text-align: center; /* alinhamento do texto */
+    text-decoration: none; /* sem decoração de texto */
+    display: inline-block; /* exibição em bloco */
+    font-size: 10px; /* tamanho da fonte */
+    margin: 10px 0; /* margem superior e inferior */
+    cursor: pointer; /* cursor de ponteiro */
+    border-radius: 5px; /* borda arredondada */
+    box-shadow: 0 3px #999; /* sombra */
+  }
+  button[type="button"]:hover {
+    background-color: #34a6d7; /* cor de fundo quando hover */
+    box-shadow: 0 5px #666; /* sombra quando hover */
+  } 
+  img {
+    width: 270px;
+    height: 170px;
+    object-fit: cover;
+    border: 1px solid #ccc;
+    margin: 10px;
+    border-radius: 5%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    border: 5px solid #fff;
+    display: inline-block;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
